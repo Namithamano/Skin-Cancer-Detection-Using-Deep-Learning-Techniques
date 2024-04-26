@@ -1,0 +1,8 @@
+short_name,full_name,description,symptoms,treatment
+akiec,Actinic keratosis (AK) or Bowen's disease,A scaly patch that typically appears on sun-exposed skin.,"Red, scaly patches that may be rough, tender, or itchy.","Freezing (cryotherapy), topical medications, or scraping (curettage)"
+bcc,Basal cell carcinoma (BCC),The most common type of skin cancer. It starts in the bottom layer of the epidermis.","A pearly or waxy bump, a flat, scaly patch, or a red, itchy area.","Mohs surgery, excision, or radiation therapy"
+bkl,Benign keratosis-like lesions,A group of noncancerous skin growths.,"Smooth, waxy, or scaly bumps, often brown, tan, or black.","Usually no treatment needed, but can be removed for cosmetic reasons"
+df,Dermatofibroma,A noncancerous growth of the skin's connective tissue.,"A firm, red or brown bump, usually painless.","Usually no treatment needed, but can be removed for cosmetic reasons or if bothersome"
+mel,Melanoma,The most serious type of skin cancer. It can spread to other parts of the body.,"An irregular mole that changes in size, shape, or color.","Early detection and surgical removal are crucial. Advanced stages may require additional therapies."
+nv,Melanocytic nevi (moles),Common brown or black spots on the skin. Most are harmless.,"A new mole or an existing mole that changes in size, shape, or color.","Usually no treatment needed, but suspicious moles may be biopsied or removed."
+vasc,Vascular lesions,Reddish growths caused by abnormal blood vessels. ,"Red, purple, or blue bumps or patches.","Treatment depends on the type and severity. May include laser therapy, sclerotherapy, or surgery."

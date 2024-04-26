@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.left h3 {
+    font-weight: 100;
+    font-size: 3em;
+}
+
+.left h4 {
+    font-weight: 200;
+    font-size: 1em;
+}
+
+.parent {
+    height: 92vh;
+    width: 100%;
+    background-color: #dfdad2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child {
+    display: flex;
+    background-color: #ffffff;
+    height: 80vh;
+    border: 1px solid #807f7e;
+    border-radius: 10px;
+    width: 80vw;
+}
+
+input[type=file] {
+    display: none;
+}
+
+.left {
+    flex: 1;
+    margin: auto;
+}
+
+.right {
+    flex: 1;
+    margin: auto;
+
+}
+
+
+nav {
+    align-items: center;
+    display: flex;
+    height: 8vh;
+    width: 100%;
+    border-bottom: 1px solid #807f7e;
+}
+
+.navleft,
+.navright {
+    margin: auto;
+    flex: 1;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+li {
+    cursor: pointer;
+}
+
+.upload {
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 1em;
+}
+
+
+#img-view,
+.container img {
+    height: 100%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container img {
+    height: 500px;
+    animation: fadeInRight 1s ease-in-out forwards;
+    animation-delay: 0.1s;
+}
+
+#dropArea {
+    cursor: pointer;
+    text-align: center;
+
+}
+
+h4.resulttext {
+    font-size: 25px;
+}
+
+nav li {
+    cursor: pointer;
+}
+
+.uploadimages {
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.historyli {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.historyli img {
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.historyul {
+    overflow-y: scroll;
+
+    width: 80%;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: column;
+}
